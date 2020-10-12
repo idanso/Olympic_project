@@ -10,11 +10,26 @@ public class Stadium {
         this.location = location;
         this.numberOfSeats = numberOfSeats;
     }
+
     public String getName() {
         return name;
     }
     public String getLocation() {
         return location;
+    }
+    public int getNumberOfSeats() {
+        return numberOfSeats;
+    }
+    public void setName(String newName){
+        this.name=newName;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public void setNumberOfSeats(int numberOfSeats) {
+        this.numberOfSeats = numberOfSeats;
     }
 
     @Override

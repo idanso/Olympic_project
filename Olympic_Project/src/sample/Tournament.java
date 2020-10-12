@@ -21,6 +21,7 @@ public class Tournament {
         this.state2 = state2;
     }
 
+
     public SportTypeAthleteANDReferee getSportTypeOfTournament() {
         return sportTypeOfTournament;
     }
@@ -31,6 +32,34 @@ public class Tournament {
 
     public Stadium getStadium() {
         return stadium;
+    }
+
+    public State getState1() {
+        return state1;
+    }
+
+    public State getState2() {
+        return state2;
+    }
+
+    public void setReferee(Referee referee) {
+        this.referee = referee;
+    }
+
+    public void setSportTypeOfTournament(SportTypeAthleteANDReferee sportTypeOfTournament) {
+        this.sportTypeOfTournament = sportTypeOfTournament;
+    }
+
+    public void setStadium(Stadium stadium) {
+        this.stadium = stadium;
+    }
+
+    public void setState1(State state1) {
+        this.state1 = state1;
+    }
+
+    public void setState2(State state2) {
+        this.state2 = state2;
     }
 
     @Override
