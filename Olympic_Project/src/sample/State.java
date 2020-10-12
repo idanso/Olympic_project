@@ -48,6 +48,10 @@ public class State {
         return name;
     }
 
+    public int getNumberOfMedals(){
+        return finalPlaceAtTheTournament.size();
+    }
+
     @Override
     public String toString() {
         return "State{" +
